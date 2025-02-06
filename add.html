@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order successfull</title>
+    
+</head>
+<body>
+    <style>
+    #success-box {
+        display: none; 
+        padding: 15px;
+        margin: 20px 0;
+        border: 1px solid #4CAF50;
+        background-color: #dff0d8;
+        color: #3c763d;
+        border-radius: 4px;
+      }
+      
+      .hidden {
+        display: none;
+      }
+    </style>
+      
+    <div id="success-box" class="hidden">
+        <strong>Success!</strong> Your operation was completed successfully.
+      </div>
+      <script>
+        function showSuccessBox() {
+            var successBox = document.getElementById('success-box');
+            successBox.style.display = 'block'; 
+            setTimeout(function() {
+              successBox.style.display = 'none'; 
+            }, 3000);
+          }
+          
+showSuccessBox();
+
+          
+      </script>
+      <footer>
+        <a href="./index.html">@home</a>
+        <p>&copy; 2024 Savory Bites. All rights reserved.</p>
+      </footer>
+      
+
+    
+    
+</body>
+</html>
+
+  
+
+  
+     

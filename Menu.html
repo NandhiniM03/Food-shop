@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Restaurant</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./Menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="./About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+        <!-- Dish 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/chicken.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Alfredo</h5>
+              <p class="card-text">A creamy, cheesy pasta dish served with tender grilled chicken, creating the perfect balance of flavors.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/pizza.jpg" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Margherita Pizza</h5>
+              <p class="card-text">A classic pizza topped with fresh mozzarella, basil, and a rich tomato sauce.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/ladys finger.jpg" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Caesar Salad</h5>
+              <p class="card-text">A fresh, crisp salad with Romaine lettuce, croutons, and a creamy Caesar dressing.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/dosa.jpg" class="card-img-top" alt="Dish 4">
+            <div class="card-body">
+              <h5 class="card-title">Spaghetti Carbonara</h5>
+              <p class="card-text">Pasta in a rich egg-based sauce with pancetta, Parmesan, and a touch of black pepper.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/fish.jpg" class="card-img-top" alt="Dish 5">
+            <div class="card-body">
+              <h5 class="card-title">Grilled Salmon</h5>
+              <p class="card-text">A perfectly grilled salmon served with fresh vegetables and a zesty lemon butter sauce.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./images/fish.jpg" class="card-img-top" alt="Dish 6">
+            <div class="card-body">
+              <h5 class="card-title">Beef Steak</h5>
+              <p class="card-text">A juicy steak cooked to your liking, served with mashed potatoes and grilled vegetables.</p>
+              <a href="./add.html" class="btn btn-danger" role="button">Order Now</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- Dish 7 -->
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-danger text-white text-center py-4">
+    <p>&copy; 2025 Restaurant Name. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
